@@ -30,7 +30,7 @@ export default {
 <template>
     <div class="container">
         <div class="column">
-                <ProjectCard  v-for="project in projects" :project="project" />
+            <ProjectCard  v-for="project in projects" :project="project" />
         </div>
     </div>
 </template>

@@ -15,7 +15,7 @@ export default {
         <p class="card-text">{{ project.description }}</p>
         <div class="d-flex gap-2">
             <span class="fw-bold">Type: </span>
-            <!-- <span>{{ project.type.name }}</span> -->
+            <span>{{ project.type?.name }}</span>
         </div>
         <div class="d-flex gap-2">
             <span class="fw-bold">Status: </span>
